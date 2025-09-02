@@ -33,6 +33,23 @@
     <!-- jquery cdn link  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Optional quick CSS to ensure consistent look -->
+    <style>
+        .service-card {
+            border: 1px solid #e9ecef;
+            border-radius: 16px;
+            background: #fff;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        }
+
+        .service-card .img img {
+            filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.08));
+        }
+
+        .service-card .badge {
+            margin: 0 .25rem .25rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -189,6 +206,7 @@
                     </div>
                 </div>
             </div>
+
         </section>
         <hr>
         <!-- expertise section starts -->
@@ -200,99 +218,159 @@
                 </h3>
             </div>
             <div class="row justify-content-evenly mt-5">
-                <!-- Agentic BOT -->
+                <!-- Jarvis: Voice‑to‑Voice Desktop Assistant -->
                 <div class="col-10 col-md-4" data-aos="fade-up">
-                    <div class="service-card">
-                        <div class="img">
-                            <img src="images/service-icon1.png" class="w-25 img-fluid img" alt="Agentic BOT" />
-                        </div>
+                    <div class="service-card text-center px-3 py-4 h-100">
+                        <div class="img"><img src="images/service-icon3.png" class="w-25 img-fluid"
+                                alt="Jarvis Assistant" /></div>
                         <div class="content mt-3">
-                            <h4>Agentic BOT for Insurance, Sales & Workforce Management</h4>
-                            <p class="text-muted">
-                                Experience the next level of automation with our Agentic BOTs designed for
-                                precision-driven
-                                insurance operations, dynamic sales performance tracking, and comprehensive employee
-                                management products. Leveraging state-of-the-art AI, these BOTs streamline processes
-                                like never before.
+                            <h4 class="card-title mb-2">Jarvis: Voice‑to‑Voice Desktop Assistant</h4>
+                            <div class="badges mb-2">
+                                <span class="badge bg-secondary badge-pill">AI</span>
+                                <span class="badge bg-secondary badge-pill">Voice‑to‑Voice</span>
+                                <span class="badge bg-secondary badge-pill">Desktop App</span>
+                            </div>
+                            <p class="text-muted mb-0">
+                                An always‑on assistant that listens, thinks, and speaks back. Wake‑word activation,
+                                on‑device Whisper STT,
+                                fast TTS, and agentic skills for email, calendar, docs, OS control, and more—your full
+                                J.A.R.V.I.S‑style
+                                copilot for everyday work.
                             </p>
                         </div>
                     </div>
                 </div>
-                <!-- OpenAI LLM-based Chatbots -->
-                <div class="col-md-4 col-10" data-aos="fade-up">
-                    <div class="service-card">
-                        <div class="img">
-                            <img src="images/service-icon2.png" class="w-25 img-fluid img" alt="LLM Chatbots" />
-                        </div>
+
+                <!-- Smart Postman → Agentic Bots Converter -->
+                <div class="col-10 col-md-4" data-aos="fade-up">
+                    <div class="service-card text-center px-3 py-4 h-100">
+                        <div class="img"><img src="images/service-icon2.png" class="w-25 img-fluid"
+                                alt="Postman to Agent Converter" /></div>
                         <div class="content mt-3">
-                            <h4>OpenAI LLM-Powered Chatbots</h4>
-                            <p class="text-muted">
-                                Unleash the full potential of conversational AI with our OpenAI-based LLM chatbots,
-                                including
-                                top-tier examples like GPT-4. Our products redefine customer engagement and support
-                                automation,
-                                delivering unparalleled accuracy, adaptability, and human-like interaction.
+                            <h4 class="card-title mb-2">Smart Postman → Agentic Bots Converter</h4>
+                            <div class="badges mb-2">
+                                <span class="badge bg-secondary badge-pill">Dev Tools</span>
+                                <span class="badge bg-secondary badge-pill">Automation</span>
+                                <span class="badge bg-secondary badge-pill">Agents</span>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Upload a Postman collection and auto‑generate callable tools, schemas, and workflows for
+                                agentic LLMs.
+                                Handles auth, environments, pagination, rate‑limits, and test flows—turn APIs into
+                                production‑ready agent
+                                skills in minutes.
                             </p>
                         </div>
                     </div>
                 </div>
-                <!-- Digital Cloning -->
-                <div class="col-md-4 col-10" data-aos="fade-up">
-                    <div class="service-card">
-                        <div class="img">
-                            <img src="images/service-icon3.png" class="w-25 img-fluid img" alt="Digital Clone" />
+
+                <!-- Agentic BOT for Insurance, Sales & Workforce -->
+                <div class="col-10 col-md-4" data-aos="fade-up">
+                    <div class="service-card text-center px-3 py-4 h-100">
+                        <div class="img"><img src="images/service-icon1.png" class="w-25 img-fluid" alt="Agentic BOT" />
                         </div>
                         <div class="content mt-3">
-                            <h4>Create Your Digital Clone</h4>
-                            <p class="text-muted">
-                                Transform your digital presence with our cutting-edge technology for voice and video
-                                cloning.
-                                Build an AI-powered digital twin that replicates your persona, offering seamless
-                                interaction
-                                across voice, video, and text-based mediums.
+                            <h4 class="card-title mb-2">Agentic BOT for Insurance, Sales &amp; Workforce</h4>
+                            <div class="badges mb-2">
+                                <span class="badge bg-secondary badge-pill">AI</span>
+                                <span class="badge bg-secondary badge-pill">Sales Automation</span>
+                                <span class="badge bg-secondary badge-pill">Employee Management</span>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Precision‑driven insurance operations, dynamic sales tracking, and comprehensive
+                                employee management—streamlined
+                                with state‑of‑the‑art Agentic BOT workflows.
                             </p>
                         </div>
                     </div>
                 </div>
-                <!-- Video Avatar Creation -->
-                <div class="col-md-4 col-10 mt-4" data-aos="fade-up">
-                    <div class="service-card">
-                        <div class="img">
-                            <img src="images/service-icon4.png" class="w-25 img-fluid img" alt="Video Avatar" />
-                        </div>
+
+                <!-- OpenAI LLM‑Powered Chatbots -->
+                <div class="col-10 col-md-4 mt-4 mt-md-5" data-aos="fade-up">
+                    <div class="service-card text-center px-3 py-4 h-100">
+                        <div class="img"><img src="images/service-icon2.png" class="w-25 img-fluid"
+                                alt="LLM Chatbots" /></div>
                         <div class="content mt-3">
-                            <h4>Dynamic Video Avatar Creation</h4>
-                            <p class="text-muted">
-                                Step into the future with hyper-realistic video avatars of yourself. Perfect for
-                                personal
-                                branding,
-                                customer interaction, and immersive digital experiences. Powered by advanced AI to
-                                mirror
-                                your
-                                movements, expressions, and voice in stunning detail.
+                            <h4 class="card-title mb-2">OpenAI LLM‑Powered Chatbots</h4>
+                            <div class="badges mb-2">
+                                <span class="badge bg-secondary badge-pill">Generative AI</span>
+                                <span class="badge bg-secondary badge-pill">OpenAI</span>
+                                <span class="badge bg-secondary badge-pill">LLM</span>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Unleash state‑of‑the‑art conversational AI—human‑like interaction, real‑time
+                                adaptability, and robust
+                                support automation for enterprise‑grade experiences.
                             </p>
                         </div>
                     </div>
                 </div>
-                <!-- Live Streaming -->
-                <div class="col-md-4 col-10 mt-4" data-aos="fade-up">
-                    <div class="service-card">
-                        <div class="img">
-                            <img src="images/service-icon4.png" class="w-25 img-fluid img" alt="Live Streaming" />
-                        </div>
+
+                <!-- Create Your Digital Clone -->
+                <div class="col-10 col-md-4 mt-4 mt-md-5" data-aos="fade-up">
+                    <div class="service-card text-center px-3 py-4 h-100">
+                        <div class="img"><img src="images/service-icon3.png" class="w-25 img-fluid"
+                                alt="Digital Clone" /></div>
                         <div class="content mt-3">
-                            <h4>Ultra-Low Latency Live Streaming APIs (Contact US)</h4>
-                            <p class="text-muted">
-                                Redefine live interactions with our ultra-low latency audio, video, and text streaming
-                                technology.
-                                From corporate webinars to interactive events, our platform ensures real-time engagement
-                                with
-                                unparalleled speed and reliability.
+                            <h4 class="card-title mb-2">Create Your Digital Clone</h4>
+                            <div class="badges mb-2">
+                                <span class="badge bg-secondary badge-pill">Voice Cloning</span>
+                                <span class="badge bg-secondary badge-pill">Video Cloning</span>
+                                <span class="badge bg-secondary badge-pill">Avatars</span>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Build an AI‑powered digital twin that replicates your persona across voice, video, and
+                                text for seamless
+                                presence and branding.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dynamic Video Avatar Creation -->
+                <div class="col-10 col-md-4 mt-4 mt-md-5" data-aos="fade-up">
+                    <div class="service-card text-center px-3 py-4 h-100">
+                        <div class="img"><img src="images/service-icon4.png" class="w-25 img-fluid"
+                                alt="Video Avatar" /></div>
+                        <div class="content mt-3">
+                            <h4 class="card-title mb-2">Dynamic Video Avatar Creation</h4>
+                            <div class="badges mb-2">
+                                <span class="badge bg-secondary badge-pill">Avatars</span>
+                                <span class="badge bg-secondary badge-pill">Video</span>
+                                <span class="badge bg-secondary badge-pill">Branding</span>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Hyper‑realistic video avatars that mirror movements, expressions, and voice—ideal for
+                                personal branding and
+                                customer engagement.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ultra‑Low Latency Live Streaming APIs -->
+                <div class="col-10 col-md-4 mt-4 mt-md-5" data-aos="fade-up">
+                    <div class="service-card text-center px-3 py-4 h-100">
+                        <div class="img"><img src="images/service-icon4.png" class="w-25 img-fluid"
+                                alt="Live Streaming" /></div>
+                        <div class="content mt-3">
+                            <h4 class="card-title mb-2">Ultra‑Low Latency Live Streaming APIs</h4>
+                            <div class="badges mb-2">
+                                <span class="badge bg-secondary badge-pill">Audio</span>
+                                <span class="badge bg-secondary badge-pill">Video</span>
+                                <span class="badge bg-secondary badge-pill">Real‑time</span>
+                            </div>
+                            <p class="text-muted mb-0">
+                                Real‑time audio, video, and text streaming with unparalleled speed and
+                                reliability—perfect for webinars,
+                                events, and interactive experiences. <strong>Contact us</strong> to get started.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+
+
         </section>
 
 
