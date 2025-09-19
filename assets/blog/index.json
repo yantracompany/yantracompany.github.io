@@ -1,0 +1,35 @@
+[
+    {
+      "slug": "hello-genai",
+      "title": "Hello, GenAI — Launching Our Angular + Prerendered Site",
+      "summary": "Why we rebuilt with Angular 18, SSR, and pre-rendering for blazing-fast SEO on GitHub Pages.",
+      "date": "2025-09-01",
+      "tags": ["Angular", "SEO", "GenAI"],
+      "cover": "assets/images/banner1.jpg"
+    },
+    {
+      "slug": "agentic-bots-in-prod",
+      "title": "Agentic Bots in Production — A Practical Guide",
+      "summary": "Design patterns, tool calling, rate limits, and safety for shipping agentic systems.",
+      "date": "2025-09-06",
+      "tags": ["Agents", "LLMs"],
+      "cover": "assets/images/agentic-rag.png"
+    },
+    {
+      "slug": "ai-curious-machines-breakthrough",
+      "title": "Curious Machines: Breakthroughs in Self-Learning AI",
+      "summary": "A review of the latest paper on curiosity-driven reinforcement learning, showing how machines can autonomously discover new strategies and outperform supervised models.",
+      "date": "2025-08-15",
+      "tags": ["AI", "Machine Learning", "Research", "Curiosity"],
+      "cover": "assets/images/ai-curious-machines-flowchart.png"
+    },
+    {
+      "slug": "ai-sales-cracking-industries",
+      "title": "AI Cracks Sales: New Paper on Predictive Selling in Industry",
+      "summary": "Recent research demonstrates how advanced ML models are revolutionizing sales forecasting and lead scoring, driving record growth in competitive industries.",
+      "date": "2025-09-01",
+      "tags": ["AI", "Sales", "Industry", "Machine Learning"],
+      "cover": "assets/images/ai-sales-cracking-text.png"
+    }
+  ]
+  
