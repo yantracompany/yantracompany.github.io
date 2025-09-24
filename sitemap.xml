@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://yantraworld.in/</loc></url>
-  <url><loc>https://yantraworld.in/portfolio</loc></url>
-  <url><loc>https://yantraworld.in/product</loc></url>
-  <url><loc>https://yantraworld.in/career</loc></url>
-  <url><loc>https://yantraworld.in/contact</loc></url>
-  <url><loc>https://yantraworld.in/blog</loc></url>
-  <url><loc>https://yantraworld.in/about</loc></url>
-  <url><loc>https://yantraworld.in/faq</loc></url>
-  <url><loc>https://yantraworld.in/privacy</loc></url>
-  <url><loc>https://yantraworld.in/terms</loc></url>
+  <url><loc>https://yantraworld.in/portfolio/</loc></url>
+  <url><loc>https://yantraworld.in/product/</loc></url>
+  <url><loc>https://yantraworld.in/career/</loc></url>
+  <url><loc>https://yantraworld.in/contact/</loc></url>
+  <url><loc>https://yantraworld.in/blog/</loc></url>
+  <url><loc>https://yantraworld.in/about/</loc></url>
+  <url><loc>https://yantraworld.in/faq/</loc></url>
+  <url><loc>https://yantraworld.in/privacy/</loc></url>
+  <url><loc>https://yantraworld.in/terms/</loc></url>
+  <url><loc>https://yantraworld.in/blog/hello-genai/</loc></url>
+  <url><loc>https://yantraworld.in/blog/agentic-bots-in-prod/</loc></url>
+  <url><loc>https://yantraworld.in/blog/ai-curious-machines-breakthrough/</loc></url>
+  <url><loc>https://yantraworld.in/blog/ai-sales-cracking-industries/</loc></url>
 </urlset>
