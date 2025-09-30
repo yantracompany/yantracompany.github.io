@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759170060961,
+  "timestamp": 1759225969498,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -18,9 +18,9 @@
         "/chunk-6RW5ZFQI.js",
         "/chunk-AMXZWE7L.js",
         "/chunk-E5DFDRZ2.js",
+        "/chunk-FSYY4EV3.js",
         "/chunk-FUG2MRJ5.js",
         "/chunk-HBRWZQ6G.js",
-        "/chunk-NJCYPUSB.js",
         "/chunk-O5CQQB6N.js",
         "/chunk-QP2M2X3R.js",
         "/chunk-QZYAKYHR.js",
@@ -29,7 +29,7 @@
         "/chunk-W2S4PQ3U.js",
         "/chunk-YTLVH22P.js",
         "/index.html",
-        "/main-DO3ATPRJ.js",
+        "/main-LLGMXLYH.js",
         "/styles-IBCU2SWL.css"
       ],
       "patterns": []
@@ -58,7 +58,7 @@
         "/assets/images/footer-left-dotted-img.png",
         "/assets/images/jarvis.jpg",
         "/assets/images/langchain.png",
-        "/assets/images/linkedin-automation-tool.jpg",
+        "/assets/images/linkedin.jpg",
         "/assets/images/llm-powered-products.png",
         "/assets/images/llm.jpg",
         "/assets/images/logos/clients/acer.png",
@@ -169,7 +169,7 @@
     "/assets/images/footer-left-dotted-img.png": "eb4729294aad2090f6976bcfc52ebbd514608ebb",
     "/assets/images/jarvis.jpg": "9feb062b7c615e0136d9e6139fb2865ff5768e15",
     "/assets/images/langchain.png": "5e996184fe758ed428f658c0f8c8527823d42cd8",
-    "/assets/images/linkedin-automation-tool.jpg": "8ae6355fb9635c0ef0e8c9d9e9af13c6673acb49",
+    "/assets/images/linkedin.jpg": "0c59f09cfc93d0c2dd5a8c41ed4a2f4cc909be5b",
     "/assets/images/llm-powered-products.png": "78d517ed242e032b73455ae68f1663f8524f16bf",
     "/assets/images/llm.jpg": "549576f3abf3505060bd98a2ac41f859831c63f3",
     "/assets/images/logos/clients/acer.png": "c3e2b31fc88fce6d96ea1849026b5b56db52a45d",
@@ -249,9 +249,9 @@
     "/chunk-6RW5ZFQI.js": "9e247d81082fa9be2b18a07dec4342867771c4e1",
     "/chunk-AMXZWE7L.js": "7f5b6ad8bd624f366c5632eb86c86559bc39b7f9",
     "/chunk-E5DFDRZ2.js": "c00e722abdee7f6ddb8642458583d443821d2f18",
+    "/chunk-FSYY4EV3.js": "e3921859dc0692f97265bfd8bc7d690f4c59e474",
     "/chunk-FUG2MRJ5.js": "46f0f5456e4f8712b8f2422e4a4c4003b47f6cc8",
     "/chunk-HBRWZQ6G.js": "b7d1480221cce364e94f742ee60d8840f9a254c9",
-    "/chunk-NJCYPUSB.js": "a688d6184382e045451d11c7889c8ea7dd9db514",
     "/chunk-O5CQQB6N.js": "3372d42c82c715b64b85d6929a05063b59d7fd0c",
     "/chunk-QP2M2X3R.js": "1a3694891716bc9d17fdc9b8ae60c8378b746311",
     "/chunk-QZYAKYHR.js": "ab27b85393b83f5b7e736435625cb7983ea01b1f",
@@ -259,8 +259,8 @@
     "/chunk-UBR4A3BL.js": "69e92f6634b9985ac0b1c65599325e5bc46f58cb",
     "/chunk-W2S4PQ3U.js": "44b126d2b8c6210a1b81f6927a51dcef3f5ba5c9",
     "/chunk-YTLVH22P.js": "23cb060b820b13d5942e442a7b7aeb8e0cb81b93",
-    "/index.html": "65eccb9943cdfc13ea85ae401fc2194a5dedfa77",
-    "/main-DO3ATPRJ.js": "8bf15f0f039f4513efa8c1b9765c46a54b8439c0",
+    "/index.html": "0033fbb95b6c9dcf6ed8cd4adc23a001f264fff7",
+    "/main-LLGMXLYH.js": "0e48e5162145ac894fa775935f61897dde200274",
     "/site.webmanifest": "cff7085d2d5e9dec14efa6630326e089cce932df",
     "/styles-IBCU2SWL.css": "665b41c4a71bfc2f3d208deee46ac5a9bb38dd3c"
   },
