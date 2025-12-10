@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1765389335152,
+  "timestamp": 1765389470141,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,6 +12,7 @@
       },
       "urls": [
         "/chunk-2H7DYMKC.js",
+        "/chunk-5G46GM72.js",
         "/chunk-6E4RWD3I.js",
         "/chunk-AD265GMP.js",
         "/chunk-DKHYM2ZP.js",
@@ -27,12 +28,11 @@
         "/chunk-IZWX4A6Y.js",
         "/chunk-NMBKNDGW.js",
         "/chunk-OAFXT5XR.js",
-        "/chunk-Q62EHBZE.js",
         "/chunk-QWBQTZCK.js",
         "/chunk-R3IVAVS7.js",
         "/chunk-TFHCGCPO.js",
         "/index.html",
-        "/main-HSTLO57H.js",
+        "/main-S5KC3URN.js",
         "/styles-SESWUUXB.css"
       ],
       "patterns": []
@@ -258,6 +258,7 @@
     "/assets/images/video-avatar.jpg": "c5432737ea680853a2af7216a43be0518c134b15",
     "/assets/vendor/aos/aos.js": "850ee2e5c9fba610840137c6c4e92b5abbc428fe",
     "/chunk-2H7DYMKC.js": "3fbb89430cd60cf7b1114737557e03f02c087a69",
+    "/chunk-5G46GM72.js": "6e02b826d03c72807099db6a2a3aa03577950623",
     "/chunk-6E4RWD3I.js": "9d416d36614199613c4e090f8bebc0e1b78a370f",
     "/chunk-AD265GMP.js": "4fa458ec0e36185d8ef6ff82d6304b15ef77b81a",
     "/chunk-DKHYM2ZP.js": "4ca8adc8e454ed8af299e5c299d3734ddba2a38c",
@@ -273,12 +274,11 @@
     "/chunk-IZWX4A6Y.js": "0d384baca8d88d59a53a949f4b8c1e8297b57501",
     "/chunk-NMBKNDGW.js": "5c5c2f16cdb5e994768078aedddf18e92dc7985e",
     "/chunk-OAFXT5XR.js": "6eae49b06c75119c5abd602e389759d888e65f71",
-    "/chunk-Q62EHBZE.js": "b748630f4c4b3e8abb78ac6458310bc6779fe8e7",
     "/chunk-QWBQTZCK.js": "4267a3cab0922f703ce8eaebcf3c2260665f0196",
     "/chunk-R3IVAVS7.js": "2210148abe5fe3c1bb11beba1a91933e6737c048",
     "/chunk-TFHCGCPO.js": "247f000dfa1f1456c239867bc18d6f91dc7f4fa9",
-    "/index.html": "a8bcb3558c8b787ca5ab8142a0d943ea3be68aee",
-    "/main-HSTLO57H.js": "3acac82feadef4021c2125a4adda373423684908",
+    "/index.html": "648aaeb59df60e6a00d64f32a438dd2509ea5fd7",
+    "/main-S5KC3URN.js": "df0a4964e94fb823d2a850b17a55afa27dd0f5d5",
     "/site.webmanifest": "18057666dc88d252595b290145a485c07bb24aca",
     "/styles-SESWUUXB.css": "003c03aa168a1e23ba9a1bc5ff567dfdf1d4d8b0"
   },
