@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+
+# Respectful crawl budget for automation scripts
+Crawl-delay: 5
+
 Sitemap: https://yantraworld.in/sitemap.xml
