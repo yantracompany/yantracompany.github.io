@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1765476459210,
+  "timestamp": 1765476614142,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,13 +12,13 @@
       },
       "urls": [
         "/chunk-235EQTPL.js",
+        "/chunk-2IWJK5I5.js",
         "/chunk-3WPIBOOJ.js",
         "/chunk-5J7ZCGXX.js",
         "/chunk-7JXCQUR5.js",
         "/chunk-7NYKPNLI.js",
         "/chunk-BK37BSY2.js",
         "/chunk-CS664NOQ.js",
-        "/chunk-F2M5SWJ7.js",
         "/chunk-F5LUDTKM.js",
         "/chunk-GTIIGWJS.js",
         "/chunk-H5KDXJ6D.js",
@@ -35,7 +35,7 @@
         "/chunk-WPH4KDCN.js",
         "/chunk-ZK7KJ4W2.js",
         "/index.html",
-        "/main-SRJ5BSCV.js",
+        "/main-ZUUK2OYM.js",
         "/styles-SESWUUXB.css"
       ],
       "patterns": []
@@ -261,13 +261,13 @@
     "/assets/images/video-avatar.jpg": "c5432737ea680853a2af7216a43be0518c134b15",
     "/assets/vendor/aos/aos.js": "850ee2e5c9fba610840137c6c4e92b5abbc428fe",
     "/chunk-235EQTPL.js": "6038a33ed0a1a6cb4dc509c50fcccb1ee83b010d",
+    "/chunk-2IWJK5I5.js": "a0fff33a5f963e09c0362cae419cd274a08e7d67",
     "/chunk-3WPIBOOJ.js": "660a9629e85893f4eb3904702155b129b2f5b1b7",
     "/chunk-5J7ZCGXX.js": "6cdc38de4d419f1d1dcbfad763ca43ac7bd2107e",
     "/chunk-7JXCQUR5.js": "1d0771762cf6db29b6eb35c198319737dad2568e",
     "/chunk-7NYKPNLI.js": "d82edb791d5f4ec0ca2b86113bcb15ecf5100f68",
     "/chunk-BK37BSY2.js": "92f316b7bb50fc9b881ded945a0f6890becde5c5",
     "/chunk-CS664NOQ.js": "d506371ea6830cd8089b8d494d875de8643c8471",
-    "/chunk-F2M5SWJ7.js": "8d9e168bbff17dd4f02c9d1dbf73ec08cfca0981",
     "/chunk-F5LUDTKM.js": "14574ac68d4baa56d07254ad0550f47e82f6b7c0",
     "/chunk-GTIIGWJS.js": "cc1b65a15f7e7ce2b08c21fb6b470629a212fb6c",
     "/chunk-H5KDXJ6D.js": "da00964cdad6890fd2ffc28a4ea8ad606b80a083",
@@ -283,8 +283,8 @@
     "/chunk-WLM2LEIQ.js": "4c8079a3a860c914717a3c307099a7b86c38d0bd",
     "/chunk-WPH4KDCN.js": "8bccbc308068bd81c809b8eb28df76a51761ad50",
     "/chunk-ZK7KJ4W2.js": "644792c62a04135f9447f11692d7a70b9168eed8",
-    "/index.html": "38cbfca60f513666a0a2aa6df39289f6feb547bd",
-    "/main-SRJ5BSCV.js": "744a29cc2e17e47f0fa749188f39826693dc9c21",
+    "/index.html": "eef1b12b3e6b110e91d32b6b3c77d3b314b87a9f",
+    "/main-ZUUK2OYM.js": "66e3cd86596f0e1b92b0b372ad784a9d510026d6",
     "/site.webmanifest": "18057666dc88d252595b290145a485c07bb24aca",
     "/styles-SESWUUXB.css": "003c03aa168a1e23ba9a1bc5ff567dfdf1d4d8b0"
   },
