@@ -1,0 +1,118 @@
+<article
+  class="blog-rich-text container-xxl py-4"
+  id="curious-genai-findings"
+  itemscope
+  itemtype="https://schema.org/Article"
+>
+  <header class="mb-4 text-center text-md-start">
+    <p class="eyebrow text-uppercase text-muted small mb-2">Research Brief / GenAI Signals</p>
+    <h1 class="display-5 fw-semibold" itemprop="headline">Curious Findings in Recent GenAI Research</h1>
+    <p class="lede fs-5 text-secondary" itemprop="description">
+      Generative AI research is moving quickly, and along the way, researchers have uncovered surprising and sometimes
+      counter-intuitive patterns. From creativity studies to environmental concerns, here are the findings shaping the
+      conversation today.
+    </p>
+  </header>
+
+  <section id="signal-human-ai-creativity" class="mb-5" aria-labelledby="signal-01">
+    <h2 class="h3 fw-bold mb-3" id="signal-01">Signal 01 - Human + GenAI vs. GenAI alone</h2>
+    <p>
+      A meta-analysis of more than 8,200 participants found that <strong>GenAI alone</strong> performs similarly to humans
+      on creative tasks, but when <strong>humans collaborate with GenAI</strong> the results are significantly better.
+      The trade-off&mdash;<em>diversity of ideas</em> drops when humans and AI generate together, leading to more convergent
+      outputs and fewer surprising directions.
+    </p>
+    <div class="insight-callout bg-light border rounded-4 p-4 mt-3" id="callout-diversity">
+      <p class="label text-uppercase text-muted small mb-2">Playbook move</p>
+      <p>
+        Introduce rotating persona prompts or multi-agent voting steps so each sprint keeps a healthy dose of divergent
+        ideas before synthesis.
+      </p>
+    </div>
+  </section>
+
+  <section id="signal-personas" class="mb-5" aria-labelledby="signal-02">
+    <h2 class="h3 fw-bold mb-3" id="signal-02">Signal 02 - Persona stacks re-open idea space</h2>
+    <p>
+      To address the narrowing, researchers experimented with <strong>multiple AI personas</strong>&mdash;models simulating
+      different backgrounds or preferences. When humans worked with these varied prompts, the resulting outputs regained
+      or even surpassed the diversity of purely human ideation. In other words, <em>diversity in prompts</em> plus
+      <em>diversity in outcomes</em>.
+    </p>
+    <ul class="ps-4">
+      <li class="mb-1">Run back-to-back ideation passes with contrasting personas.</li>
+      <li class="mb-1">Score each pass for novelty before merging.</li>
+      <li>Log persona and outcome pairings to build an institutional prompt graph.</li>
+    </ul>
+  </section>
+
+  <section id="signal-student-attitudes" class="mb-5" aria-labelledby="signal-03">
+    <h2 class="h3 fw-bold mb-3" id="signal-03">Signal 03 - Academia normalizes GenAI</h2>
+    <p>
+      In just one year, the percentage of computing students who reported <em>never</em> using ChatGPT fell from 34% to 6%.
+      GenAI is rapidly becoming normalized in education. Interestingly, frequent daily use dipped slightly, hinting that
+      students now use AI more strategically rather than habitually.
+    </p>
+  </section>
+
+  <section id="signal-trust-by-task" class="mb-5" aria-labelledby="signal-04">
+    <h2 class="h3 fw-bold mb-3" id="signal-04">Signal 04 - Trust varies by task</h2>
+    <p>
+      Large-scale surveys show researchers are far more comfortable using GenAI for <strong>language editing</strong> or
+      <strong>data analysis</strong> than for <em>experiment design</em> or <em>peer review</em>. Junior researchers are often more
+      open to broader uses, while senior academics and non-technical fields remain cautious.
+    </p>
+    <div class="grid-two row g-4">
+      <div class="col-md-6">
+        <h3 class="h5">Tasks with high trust</h3>
+        <p class="mb-0">Language edits, summarisation, accessible formatting, code linting.</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="h5">Tasks with low trust</h3>
+        <p class="mb-0">Novel experimental design, peer review, compliance evidence, legal risk scoring.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="signal-ethics" class="mb-5" aria-labelledby="signal-05">
+    <h2 class="h3 fw-bold mb-3" id="signal-05">Signal 05 - Ethics, disclosure, transparency</h2>
+    <p>
+      Across fields, concerns about <strong>transparency, reproducibility, bias, and hallucinations</strong> remain top of mind.
+      Many papers argue disclosure of how and when GenAI was used should become standard practice, but one-size-fits-all
+      policies fall short&mdash;discipline-specific norms will be essential.
+    </p>
+    <ol class="ps-4">
+      <li class="mb-1">Create a short disclosure rubric (purpose, prompts, human review checkpoints).</li>
+      <li class="mb-1">Pair it with reproducibility notes (model version, sampling parameters, toolchain).</li>
+      <li>Log hallucination and bias incidents in the same telemetry system as general defects.</li>
+    </ol>
+  </section>
+
+  <section id="signal-environment" class="mb-5" aria-labelledby="signal-06">
+    <h2 class="h3 fw-bold mb-3" id="signal-06">Signal 06 - Sustainability telemetry</h2>
+    <p>
+      Training, fine-tuning, and deploying large models comes with significant <strong>energy and water costs</strong>. Data centers
+      powering GenAI consume increasing electricity while cooling and hardware manufacturing add to the environmental load.
+      Researchers are calling for more efficient architectures and transparent reporting of AI's footprint.
+    </p>
+    <div class="insight-callout bg-light border rounded-4 p-4 mt-3" id="callout-sustainability">
+      <p class="label text-uppercase text-muted small mb-2">Ethics & sustainability</p>
+      <p>
+        Track prompts per watt-hour, auto-flag long-running inference chains, and surface greener blueprint suggestions
+        inside governance reviews.
+      </p>
+    </div>
+  </section>
+
+  <section id="signal-field-notes" class="mb-4" itemprop="articleBody">
+    <h2 class="h3 fw-bold mb-3">Field notes to socialize internally</h2>
+    <p>
+      Each of these findings reminds us that GenAI is both a powerful collaborator and a disruptive force. It can amplify
+      creativity but also homogenize it; democratize access but also raise ethical and environmental questions. Staying curious
+      about these nuances helps teams shape AI into a tool that serves people more thoughtfully.
+    </p>
+    <blockquote class="border-start ps-4 fst-italic">
+      "Generative AI does not just change how we create&mdash;it changes what we value in creativity, collaboration, and sustainability."
+    </blockquote>
+  </section>
+</article>

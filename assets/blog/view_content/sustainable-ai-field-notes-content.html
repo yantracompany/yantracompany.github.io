@@ -1,0 +1,57 @@
+<article
+  class="blog-rich-text container-xxl py-4"
+  id="sustainable-ai-field-notes"
+  itemscope
+  itemtype="https://schema.org/Article"
+>
+  <header class="mb-4 text-center text-md-start">
+    <p class="eyebrow text-uppercase text-muted small mb-2">Responsible AI / Sustainability Notes</p>
+    <h1 class="display-5 fw-semibold" itemprop="headline">Sustainable AI Field Notes</h1>
+    <p class="lede fs-5 text-secondary" itemprop="description">
+      Stanford’s sustainability partnerships program has been quietly prototyping a low-carbon AI stack. We spent time
+      with the practitioners and walked away with a set of routines that feel applicable even outside campus.
+    </p>
+  </header>
+
+  <section id="observability" class="mb-5" aria-labelledby="observability-heading">
+    <h2 class="h3 fw-bold mb-3" id="observability-heading">Observability that treats carbon like latency</h2>
+    <p>
+      The Stanford teams route GPU hours, cooling water, and carbon mix into the same observability system that already
+      tracks latency and error budgets. Each workload gets a fact sheet that shows kilowatt hours per inference batch,
+      liters of water per training job, and the carbon intensity of the hosting region over the past week.
+    </p>
+    <p>
+      You do not need a new platform to follow suit. Add derived metrics in your APM tool, appoint owners for the signals,
+      and run a weekly stand-up that includes infra, finance, and sustainability leads. Spikes get triaged with the same
+      urgency as a P1 incident, and remediation steps are documented in the runbook.
+    </p>
+  </section>
+
+  <section id="procurement" class="mb-5" aria-labelledby="procurement-heading">
+    <h2 class="h3 fw-bold mb-3" id="procurement-heading">Procurement scorecards that carry real weight</h2>
+    <p>
+      Every Stanford RFP ships with a sustainability appendix. It asks whether renewable bundles are attached to GPU
+      leases, whether hardware recycling SLAs are signed, and whether cooling practices are disclosed. Suppliers that
+      meet the bar earn preferred status; everyone else receives a time-boxed remediation plan.
+    </p>
+    <p>
+      We re-created the scorecard in a shared spreadsheet and treat it as a living document. Procurement updates the
+      status column, responsible AI leads contribute suggested clauses, and executives can see which partners are lagging
+      without digging through email threads.
+    </p>
+  </section>
+
+  <section id="storytelling" class="mb-4" aria-labelledby="storytelling-heading">
+    <h2 class="h3 fw-bold mb-3" id="storytelling-heading">Impact storytelling that unlocks sponsorship</h2>
+    <p>
+      Data alone rarely moves senior leaders. The Stanford group builds a one-page impact board that pairs telemetry with
+      narrative examples: a model optimization that saved megawatt hours <em>and</em> improved latency, or a supplier
+      negotiation that bundled carbon-neutral power with additional GPUs. We adopted the same format and present it at
+      quarterly business reviews so sustainability sits alongside growth and reliability.
+    </p>
+  </section>
+
+  <footer class="pt-3 border-top">
+    <p>See also: <a href="/blog/stanford-ai-product-playbook">Stanford AI Product Playbook</a></p>
+  </footer>
+</article>
